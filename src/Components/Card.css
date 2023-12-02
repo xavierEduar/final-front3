@@ -1,0 +1,60 @@
+.card {
+     background-color: #6785c0;  
+    width: 200px; 
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #030303;
+    margin-top: 4%;
+
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+  }
+  .card-img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+  }
+  .card h3 {
+    font-size: 17px;
+    color:black;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color:black;
+  }
+  
+.favButton {
+    background-color: rgb(148, 137, 137); 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+    display: block; 
+    margin: 2% ; 
+    text-align: center; 
+    width: 150px; 
+  }
+  
+  
+  .favButton:hover {
+    background-color: #5d40ed; 
+    color: white; 
+  }
+
+  .dark .card  {
+    background-color: rgb(106, 102, 102);
+  }
+
+  .dark .favButton:hover {
+    background-color:#ffcc00 ;
+  }
+  
+  

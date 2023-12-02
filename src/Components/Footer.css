@@ -1,0 +1,14 @@
+footer{
+    background-color: #0A2640;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+.dark-theme p {
+    background-color: #242424;
+    color: #ffcc00;
+  }
+ 
